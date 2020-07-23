@@ -20,7 +20,7 @@ request = Net::HTTP::Get.new(uri)
 request.basic_auth(node['nexus_sync']['user'], node['nexus_sync']['password'])
 
 req_options = {
-               use_ssl: uri.scheme == "https",
+               use_ssl: uri.scheme == 'https',
                verify_mode: OpenSSL::SSL::VERIFY_NONE,
               }
 
@@ -31,7 +31,7 @@ end
 downloads = JSON.parse(response.body)
 
 # iterate over response, downloading anything that doesn't already exist
-download['items'].each do | url |
+downloads['items'].each do |url|
   filename = url['path'].split('/')[1]
   remote_file filename do
     source url['downloadUrl']

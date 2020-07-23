@@ -1,8 +1,8 @@
 name 'nexus_sync'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
-license 'All Rights Reserved'
-description 'Installs/Configures nexus_sync'
+maintainer 'Matt Ray'
+maintainer_email 'matt@chef.io'
+license 'Apache-2.0'
+description 'Syncs a directory against Nexus'
 version '0.1.0'
 chef_version '>= 15.0'
 
