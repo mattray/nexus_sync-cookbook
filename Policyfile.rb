@@ -15,7 +15,7 @@ run_list 'nexus_sync::default'
 # Specify a custom source for a single cookbook:
 cookbook 'nexus_sync', path: '.'
 
-default['nexus_sync']['url'] = nil
-default['nexus_sync']['user'] = nil
-default['nexus_sync']['password'] = nil
+default['nexus_sync']['url'] = 'https://someserver'
+default['nexus_sync']['user'] = 'Us3r'
+default['nexus_sync']['password'] = 'Passw0rd'
 default['nexus_sync']['directory'] = '/tmp/downloads'

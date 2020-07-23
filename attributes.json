@@ -1,0 +1,8 @@
+{
+  "nexus_sync": {
+    "url": "https://someserver",
+    "user": "UWSER",
+    "password": "PASSWODdd",
+    "directory": "/tmp/downloads"
+  }
+}
