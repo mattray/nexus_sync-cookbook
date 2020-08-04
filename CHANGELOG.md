@@ -6,5 +6,6 @@ This file is used to list changes made in each version of the nexus_sync cookboo
 
 Initial release.
 
-- change 0
-- change 1
+## 0.2.0
+
+Convert to custom resource.
